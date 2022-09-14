@@ -12,6 +12,8 @@ body{
     height: 100%;
     margin: 0;
 }
+
+/* Section entête */
 .header{
     grid-area: header;
     background-color: rgb(30, 95, 245);
@@ -28,7 +30,8 @@ body{
     margin-left: 2%;
   
 }
-
+/* section corp de page */
+/* page d'accueil */
 .main{
 grid-area: main;
 }
@@ -50,6 +53,8 @@ grid-area: main;
    margin-bottom: 0px;
 }
 
+/* section formulaire login*/
+
 .formulaire{
 
 background-color: white;
@@ -59,21 +64,7 @@ display: flex;
      margin-right: 30px;
 
 }
-.footer{
-    grid-area: footer;
-    background-color: rgb(30, 95, 245);
-    color: white;
-    height: 30px;
-    padding-bottom: 2%;
-    
-}
-.footer p{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 2%;
-    
-}
+
 .image{
     width: 100px;
     height: auto;
@@ -103,4 +94,21 @@ button{
     color: white;
     border-radius: 5px;
     border: 0;
+}
+
+/* Section pied de page */
+.footer{
+    grid-area: footer;
+    background-color: rgb(30, 95, 245);
+    color: white;
+    height: 30px;
+    padding-bottom: 2%;
+    
+}
+.footer p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2%;
+    
 }

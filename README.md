@@ -15,9 +15,9 @@ Un dossier style regroupant tous les fichiers css dont
 
 Un dossier image regroupant l'image de la liste d'annonce.
 
-Pour réaliser ce projet j'ai utilisé le style grid layout et flexible layout pour   et @media pour la responsivitité de la page liste.
+Pour réaliser ce projet j'ai utilisé le style grid layout et flexible layout pour l'intégration de mes contenaires et @media pour la responsivitité de la page liste.
 
-Ce projet s'affiche sur un navigateur chrone de préférence.
+Ce projet s'affiche sur un navigateur chrome de préférence.
 
 
 

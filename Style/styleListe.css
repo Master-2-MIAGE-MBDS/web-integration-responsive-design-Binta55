@@ -12,6 +12,7 @@ body{
     "footer ";
     
 }
+/* --section header */
 .header{
     grid-area: header;
     height: 100%;
@@ -27,6 +28,11 @@ justify-content: flex-start;
 align-items: center;
 background-color: rgb(30, 95, 245);
 width: 100%;
+ 
+}
+
+.titre-header h3{
+    margin-left: 2%;
 }
 .onglet{
     display: flex;
@@ -50,6 +56,9 @@ width: 100%;
     align-items: center;
     background-color: rgb(30, 95, 245);
 }
+
+
+/* Section article */
 
 .article{
 
@@ -100,15 +109,8 @@ padding-top: 0px;
 background-color: rgb(233, 228, 237);
 }
 
-.accueil{
-    
-    
-    background-color: rgb(223, 230, 236);
-    height: 230px;
-    margin-bottom: 50px;
 
-
-}
+/* section pied de page */
 
 .footer{
     grid-area: footer;
@@ -125,6 +127,10 @@ background-color: rgb(233, 228, 237);
     margin-left: 2%;
     
 }
+
+
+/* Responsivité */
+
 @media screen and (min-width: 700px) {
 .article{
     display:inline-flex;
