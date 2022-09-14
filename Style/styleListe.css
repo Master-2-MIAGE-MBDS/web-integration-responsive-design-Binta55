@@ -33,7 +33,7 @@ width: 100%;
     justify-content:space-around
 }
 .onglet .p1{
-    grid-area: p1;
+    
     background-color: rgb(76, 127, 248);
     width:50%;
     display: flex;
@@ -43,7 +43,7 @@ width: 100%;
 }
 
 .onglet .p2{
-    grid-area: p2;
+    
     width: 50%;
     display: flex;
     justify-content: center;
