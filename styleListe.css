@@ -125,7 +125,25 @@ background-color: rgb(233, 228, 237);
     margin-left: 2%;
     
 }
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 700px) {
+.article{
+    display:inline-flex;
+    margin: 9px;
+    
+}
+
+
+img{
+    width: 130px;
+}
+
+article, .description{
+    height: 128px;
+    width: 180px;
+}
+}
+
+/* @media screen and (min-width: 800px) {
 .article{
 
     border-radius: 30px;
@@ -133,16 +151,15 @@ background-color: rgb(233, 228, 237);
     margin: 9px;
     
 }
+
+
 img{
-    width: 130px;
+    width: 140px;
 }
 
 article, .description{
-    height: 128px;
-    width: 200px;
+    height: 148px;
+    width: 300px;
 }
 }
-@media screen and (min-width: 680px) {
-    
-}
-
+ */
